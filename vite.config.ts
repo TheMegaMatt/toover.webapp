@@ -8,6 +8,9 @@ export default defineConfig({
     host: 'localhost',
   },
 
+  envDir: './environment',
+  envPrefix: 'TOOVER',
+
   plugins: [
     react(),
     viteTsConfigPaths({
