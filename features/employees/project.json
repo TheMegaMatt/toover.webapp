@@ -1,0 +1,20 @@
+{
+  "name": "employees",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "features/employees/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": [
+        "{options.outputFile}"
+      ],
+      "options": {
+        "lintFilePatterns": [
+          "features/employees/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    }
+  }
+}

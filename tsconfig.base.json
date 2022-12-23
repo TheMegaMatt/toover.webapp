@@ -1,0 +1,35 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"rootDir": ".",
+		"sourceMap": true,
+		"declaration": false,
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"importHelpers": true,
+		"target": "es2015",
+		"module": "esnext",
+		"lib": ["es2017", "dom"],
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+		"baseUrl": ".",
+		"paths": {
+			"@toover/accounts": ["features/accounts/src/index.ts"],
+			"@toover/components": ["libs/components/src/index.ts"],
+			"@toover/core": ["libs/core/src/index.ts"],
+			"@toover/dashboard": ["features/dashboard/src/index.ts"],
+			"@toover/employees": ["features/employees/src/index.ts"],
+			"@toover/firebase": ["libs/firebase/src/index.ts"],
+			"@toover/home": ["features/home/src/index.ts"],
+			"@toover/i18n": ["libs/i18n/src/index.ts"],
+			"@toover/items": ["features/employees/src/index.ts"],
+			"@toover/locations": ["features/locations/src/index.ts"],
+			"@toover/mantine": ["libs/mantine/src/index.ts"],
+			"@toover/redux-toolkit": ["libs/redux-toolkit/src/index.ts"],
+			"@toover/settings": ["features/settings/src/index.ts"],
+			"@toover/types": ["features/employees/src/index.ts"]
+		}
+	},
+	"exclude": ["node_modules", "tmp"]
+}
